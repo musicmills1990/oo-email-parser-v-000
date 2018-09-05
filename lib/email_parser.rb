@@ -12,6 +12,8 @@ end
 
 
 def self.parse(emails)
+  new_array = emails.split()
+  new_array.uniq
 end
 
 

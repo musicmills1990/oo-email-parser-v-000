@@ -11,11 +11,12 @@ def initialize(emails)
 end
 
 def self.parse(emails)
-  if emails.include?(",")
-    array_1 = emails.split(" , ")
+  email_array = emails.split("")
+  if email_array.include?(",")
+    array_1 = email_array.split(" , ")
     return array_1.uniq
   else
-    array_2 = emails.split(" ")
+    array_2 = email_array.split(" ")
     return array_2.uniq
   end
 end

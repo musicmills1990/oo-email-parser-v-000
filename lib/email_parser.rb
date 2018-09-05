@@ -12,10 +12,9 @@ end
 
 
 def self.parse
-  new_array = emails.split()
+
+  new_array = emails.split(/\W\w/)
   new_array.uniq
 end
-
-
 
 end

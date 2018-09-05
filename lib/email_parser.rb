@@ -7,7 +7,6 @@ attr_accessor :emails
 
 
 def self.parse
-
 end
 
 

@@ -11,7 +11,7 @@ def initialize(emails)
 end
 
 
-def self.parse(emails)
+def self.parse
   new_array = emails.split()
   new_array.uniq
 end

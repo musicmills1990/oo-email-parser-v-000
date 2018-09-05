@@ -15,7 +15,11 @@ end
 def self.parse(emails)
   if emails.include?(",")
     array_1 = emails.split(" , ")
-
+    return array_1.uniq
+  else
+    array_2 = emails.split(" ")
+    return array_2.uniq
+  end
 end
 
 

@@ -13,6 +13,9 @@ def initialize(emails)
 end
 
 def self.parse(emails)
+  if emails.include?(",")
+    array_1 = emails.split(" , ")
+
 end
 
 

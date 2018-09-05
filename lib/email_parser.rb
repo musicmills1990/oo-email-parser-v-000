@@ -23,4 +23,5 @@ def self.parse(email_string)
     final_email_array_2 = email_string.split(" ")
     final_email_array_2.uniq
     end
+  end
 end
